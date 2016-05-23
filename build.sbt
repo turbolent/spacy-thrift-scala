@@ -7,9 +7,8 @@ version := "0.1-SNAPSHOT"
 scalaVersion := "2.11.8"
 
 libraryDependencies ++= Seq(
-  "org.apache.thrift" % "libthrift" % "0.8.0",
-  "com.twitter" %% "scrooge-core" % "4.6.0",
-  "com.twitter" %% "finagle-thrift" % "6.34.0",
+  "com.twitter" %% "scrooge-core" % "4.7.0",
+  "com.twitter" %% "finagle-thrift" % "6.35.0",
   "org.scalatest" %% "scalatest" % "2.2.6" % "test"
 )
 
