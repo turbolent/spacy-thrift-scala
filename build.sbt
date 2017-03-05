@@ -4,12 +4,12 @@ organization := "com.turbolent"
 
 version := "0.1-SNAPSHOT"
 
-scalaVersion := "2.11.8"
+scalaVersion := "2.12.1"
 
 libraryDependencies ++= Seq(
-  "com.twitter" %% "scrooge-core" % "4.7.0",
-  "com.twitter" %% "finagle-thrift" % "6.35.0",
-  "org.scalatest" %% "scalatest" % "2.2.6" % "test"
+  "com.twitter" %% "scrooge-core" % "4.14.0",
+  "com.twitter" %% "finagle-thrift" % "6.42.0",
+  "org.scalatest" %% "scalatest" % "3.0.1" % "test"
 )
 
 scroogeThriftOutputFolder in Compile <<= baseDirectory(_ / "src_gen")
