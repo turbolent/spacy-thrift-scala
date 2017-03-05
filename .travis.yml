@@ -1,0 +1,10 @@
+language: scala
+jdk:
+- oraclejdk8
+scala:
+- 2.12.1
+env:
+  global:
+    secure: kFykO/4oTQlzAA4GRMp6mQm0eKh4H8bOwuwvFrLK3sBgC4dlZwAgKFQy9fJysIbKewxpDhgHFW6a+VsIP5AOgYyTZ2J47ZnDHNMLWBrbGyLr/xIQUNsJf05TY5OR2G9SgWlT4I5TFu5PTr5gk45tF2pia0gsOit5jTBODtFDlNv414l3QSaCEJcmWjxgIUysOo91v2DBl/BrsQL56uFuX+l6wuwIsMUi9sfFi7xVgvQ5Rye2T3ECUL4Y7XcYTlMRCapaVLUmdA/bgWZr1XEc0IyOaxdGsXQK4F6jz/9VBYcCC/KH+nLhKTO13EnzgKEBZSqfXAynrqzHFHOv9yIsDS2TNoQQIU+hybyAYxC6FGeqc4Tmc29kWKjZ5Qhv41w+TWVcNhJjgDp8mYMZ0zE92q0kBQvmG3JNMQbPp1hpLz/C+OypA014vHP/2JNxt2BNWj1Hobi+sT86juQQqcBwiEhDl2dAQF53bf5l9fpP1rN4Q8+o6S1D8c10DyrivrWNa9w4at+ccQR2ZYeTXL9Qehqo+it0TyYcEWRKXWddSt6CrexY0V6+/tUEvgWIQzFFAKMnxwGFICiPR9j5PmQioA0m+00AxUpDqFYRvCT/UWVHWXWJm3WeahFaaU/wieViIwXDz6TNIFZsGtGEktZxjazZHCv4rWgMzwJMZuh8ALI=
+after_success:
+- ".travis/deploy.sh"
