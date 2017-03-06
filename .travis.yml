@@ -1,4 +1,7 @@
+sudo: required
 language: scala
+services:
+  - docker
 jdk:
   - oraclejdk8
 scala:
