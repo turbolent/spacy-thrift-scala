@@ -1,3 +1,3 @@
 # spacy-thrift-scala
 
-Use spacy-thrift in Scala
+Use [spacy-thrift](https://github.com/turbolent/spacy-thrift) in Scala
